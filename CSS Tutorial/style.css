@@ -1,0 +1,16 @@
+.para{
+    color:green;
+}
+body {
+    background-color: purple;
+    background-image: ;
+     background-repeat:no-repeat;
+     /* to repeat in x or y axis we use repeat-x or repeat-y */
+     background-size: cover;
+     /* cover will take the whole screen size whereas contain will take the real size only */
+     background-blend-mode:difference ;
+     /* applies blending mode to background images n color */
+/* how can u apply multiplle bg images to a single element
+by using comma to seperate them */
+bg-image:url(''),url('');
+}

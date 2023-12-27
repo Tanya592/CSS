@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- inside head tag we use internal css via style tag -->
+    <style>
+        h1{
+            color:blue;
+        }
+        /* if we use internal and inline css together then inline part is followed bcoz of high priority */
+    </style>
+    <!-- this is external css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="para"></p>
+    <h1 style="color:red">This is Inline CSS</h1>
+    <a href=""></a>
+    <!-- 1 css tag/element selector
+    h1{
+        color:red;
+    } 
+    where h1 is a selector , color is a property and red is a value   
+    2 class selector
+.btn{
+    color:blue;
+    font-weight:bold;
+    btn is accessed through dot operator
+    combination of property and value is known as declarration
+    3 pseudo class
+    a:hover{
+        color:blue;
+    }
+    
+
+}-->
+</body>
+</html>
